@@ -4,8 +4,8 @@ document.querySelectorAll('.product-item').forEach(item => {
         const text = item.querySelector('.text');
         text.style.left = '10px';
         text.style.opacity = '1';
-        text.style.backgroundColor = 'rgb(221, 218, 218)';
-        text.style.border = '2px solid rgb(221, 218, 218)';
+        text.style.backgroundColor = '#e1dddd';
+        text.style.border = '2px solid #e1dddd';
         text.style.borderRadius = '10px';
     })
     item.addEventListener('mouseleave',() => {
